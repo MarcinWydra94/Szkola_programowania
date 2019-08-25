@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Arrays;
 
-public class UderDao {
+public class UserDao {
 
 
     private static final String CREATE_QUERY = "INSERT INTO users (username, email, password, group_id) VALUES (?, ?, ?, ?)";
